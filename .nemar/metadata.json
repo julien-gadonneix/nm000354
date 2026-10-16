@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Arithmetic calculations measured by intracranial EEG in the human brain",
-  "description": "Stereo-EEG recordings from 20 epilepsy surgery candidates performing a sequential three-operand arithmetic task (easy and difficult equations in several numerical formats). The deposit contains preprocessed, bipolar-referenced epochs (512 Hz, -2 to +7 s around the first operand) with MNI electrode coordinates, and is released as a BIDS derivative of the authors' Zenodo data. It supports analysis of the temporal order of activations and interactions in brain networks during arithmetic calculation.",
-  "methods_description": "SEEG was recorded with DIXI Medical electrodes and Natus Quantum amplifiers at 2048 Hz during pre-surgical evaluation. Stimuli were presented with PsychToolBox and synchronized by parallel-port triggers. Preprocessing by the source authors: low-pass filtering at 400 Hz and downsampling to 512 Hz, rejection of channels in seizure onset or irritative zones and of broken channels, bipolar referencing, 0.1 Hz high-pass filtering, 50 Hz notch filtering with harmonics, and epoching.",
+  "title": "Kalinova-2026-temporal-10.1038/s41598-026-36122-z",
+  "description": "Stereo-EEG recordings from 20 patients with pharmacoresistant epilepsy performing a sequential three-operand arithmetic task during presurgical evaluation. The deposit contains preprocessed, bipolar-referenced epochs (-2 to +7 s around the first operand) from 1518 channels and supports analysis of the temporal order of activations and interactions during calculation. It is organized as a BIDS derivative of the authors' Zenodo deposit.",
+  "methods_description": "SEEG was recorded with DIXI Medical electrodes and Natus Quantum amplifiers at 2048 Hz. Data were low-pass filtered (Chebyshev Type I, 400 Hz), downsampled to 512 Hz, bipolar referenced, high-pass filtered at 0.1 Hz and notch filtered at 50 Hz and harmonics. Participants solved easy and difficult sequential arithmetic equations presented with PsychToolBox, with stimulus onsets synchronized to the iEEG by parallel-port triggers.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,10 +22,10 @@
   },
   "keywords": [
     {
-      "term": "Intracranial EEG"
+      "term": "stereo-EEG"
     },
     {
-      "term": "stereo-EEG"
+      "term": "intracranial EEG"
     },
     {
       "term": "arithmetic"
@@ -34,15 +34,15 @@
       "term": "numerical cognition"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
       "term": "functional connectivity"
     },
     {
       "term": "high-gamma activity"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -69,7 +69,7 @@
   ],
   "funding_references": [
     {
-      "funder_name": "European Regional Development Fund",
+      "funder_name": "ERDF",
       "award_number": "CZ.02.01.01/00/22_008/0004643",
       "award_title": "Brain Dynamics"
     },
@@ -97,5 +97,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "9a6f060241af7197ae40cff2ad8f1b13f3cf738ac7e56b280b0e4aee9f7749c5"
+  "source_hash": "583fbb958d1849e624fae4886f7da53ad07a52bd0e8911e03ea67d88f32295fd"
 }
