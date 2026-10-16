@@ -1,5 +1,5 @@
 {
-  "Name": "Arithmetic calculations measured by intracranial EEG in the human brain",
+  "Name": "Kalinova-2026-temporal-10.1038/s41598-026-36122-z",
   "BIDSVersion": "1.9.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -63,5 +63,5 @@
     "epilepsy"
   ],
   "DatasetDOI": "10.82901/nemar.nm000354",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
