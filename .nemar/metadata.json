@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Arithmetic calculations measured by intracranial EEG in the human brain",
-  "description": "Stereo-EEG recordings from 20 patients with pharmacoresistant epilepsy performing a sequential three-operand arithmetic task during presurgical evaluation. The deposit contains preprocessed, bipolar-referenced epochs (-2 to +7 s around the first operand) from 1518 channels and supports analysis of the temporal order of activations and interactions during calculation. It is organized as a BIDS derivative of the authors' Zenodo deposit.",
-  "methods_description": "SEEG was recorded with DIXI Medical electrodes and Natus Quantum amplifiers at 2048 Hz. Data were low-pass filtered (Chebyshev Type I, 400 Hz), downsampled to 512 Hz, bipolar referenced, high-pass filtered at 0.1 Hz and notch filtered at 50 Hz and harmonics. Participants solved easy and difficult sequential arithmetic equations presented with PsychToolBox, with stimulus onsets synchronized to the iEEG by parallel-port triggers.",
+  "description": "Stereo-EEG recordings from 20 pharmacoresistant epilepsy patients undergoing presurgical evaluation while they solved sequential three-operand arithmetic equations. The deposited data are preprocessed, bipolar-referenced epochs (-2 to +7 s around the first operand, 512 Hz) covering 1518 bipolar channels and 1925 trials, with MNI coordinates of the contacts. The dataset supports analyses of the temporal order of activations and interactions in brain networks during numerical cognition.",
+  "methods_description": "SEEG was recorded with DIXI Medical electrodes and Natus Quantum amplifiers at 2048 Hz. Preprocessing consisted of low-pass filtering, downsampling to 512 Hz, bipolar referencing, 0.1 Hz high-pass filtering, notch filtering at 50 Hz and its harmonics, and epoching. Participants solved easy and difficult arithmetic equations presented with PsychToolBox, with stimulus onsets synchronized to the iEEG by parallel-port triggers. They answered on a gamepad.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,10 +22,10 @@
   },
   "keywords": [
     {
-      "term": "stereo-EEG"
+      "term": "intracranial EEG"
     },
     {
-      "term": "intracranial EEG"
+      "term": "stereo-EEG"
     },
     {
       "term": "arithmetic"
@@ -34,15 +34,15 @@
       "term": "numerical cognition"
     },
     {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
       "term": "functional connectivity"
     },
     {
       "term": "high-gamma activity"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
