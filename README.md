@@ -65,9 +65,10 @@ as-raw BIDS.
 - Data README (Zenodo raw_data.zip, trialsData_readme): "Raw iEEG data means that they were bipolar referenced, high-pass
   filtered (at 0.1 Hz) and notch filtered at 50 Hz and harmonics."
 - All of the above is recorded in `SoftwareFilters` and `iEEGReference` of each `*_ieeg.json` and in `GeneratedBy`.
-- `*_channels.tsv`: `low_cutoff` 0.1 Hz = the publication's and data README's high-pass; `high_cutoff` 400 Hz = the
-  publication's anti-aliasing low-pass, applied at 2048 Hz before downsampling (the released 512 Hz signal has a Nyquist
-  frequency of 256 Hz).
+- `*_channels.tsv`: `low_cutoff` 0.1 Hz = the publication's and data README's high-pass; `high_cutoff` 205 Hz = the
+  anti-aliasing edge measured in the released data. The publication states 400 Hz, which is above the 256 Hz Nyquist
+  frequency of the 512 Hz signal; in all 20 files the spectrum is flat to about 205 Hz and falls by 10 dB at 220 Hz and by
+  35 dB at 240 Hz.
 
 ## Known caveats
 - Everything in the original notes is kept in this README (first paragraphs and the sections below); only the epoch

@@ -1,2 +1,5 @@
+1.0.3 2026-10-21
+  - channels.tsv high_cutoff 205 (was 400, above the 256 Hz Nyquist) and ieeg.json anti-aliasing cutoff: the edge measured in the released spectra.
+
 1.0.2 2026-10-16
   - Restore the descriptive Name from v1.0.0 after the v1.0.1 naming regression.

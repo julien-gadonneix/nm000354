@@ -6,8 +6,8 @@
     "SoftwareFilters": {
         "Anti-aliasing low-pass": {
             "Type": "Chebyshev Type I IIR, 8th order, zero phase",
-            "Cutoff (Hz)": 400,
-            "Description": "applied before downsampling from 2048 Hz to 512 Hz (Kalinova et al. 2026, Sci Rep 16:5587, doi:10.1038/s41598-026-36122-z, Methods)"
+            "Cutoff (Hz)": 205,
+            "Description": "applied before downsampling from 2048 Hz to 512 Hz (Kalinova et al. 2026, Sci Rep 16:5587, doi:10.1038/s41598-026-36122-z, Methods). The paper states a 400 Hz cutoff, above the 256 Hz Nyquist frequency of the released data; the released spectra are flat to about 205 Hz and fall by 10 dB at 220 Hz and 35 dB at 240 Hz in all 20 files, so 205 Hz is the measured edge"
         },
         "High-pass": {
             "Type": "Butterworth, 6th order, zero phase",
